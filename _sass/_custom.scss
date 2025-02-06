@@ -4,15 +4,16 @@
 */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-body{
+body {
     color: #919191;
     background: url('/archivo/objects/demo_001.jpg');
     background-position-x: 0%;
     background-position-y: 0%;
     background-size: auto;
-  background-position: center -630%;
-  background-size: cover;
+    background-position: center -630%;
+    background-size: cover;
 }
+
 p {
     margin-top: 0;
     margin-bottom: 1rem;
@@ -20,10 +21,12 @@ p {
     font-size: 1rem;
     margin-bottom: 2rem;
 }
-p a{
+
+p a {
     color: white;
     text-decoration: underline;
 }
+
 table.dataTable>thead>tr>th:not(.sorting_disabled),
 table.dataTable>thead>tr>td:not(.sorting_disabled) {
     padding-right: 30px;
@@ -39,11 +42,14 @@ table.dataTable th {
     font-size: 0.9rem;
     padding: 1rem;
 }
-td a{
+
+td a {
     color: white;
     text-decoration: underline;
 }
-td a:hover, td a:focus{
+
+td a:hover,
+td a:focus {
     color: white;
     text-decoration: none;
 }
@@ -52,6 +58,7 @@ td a:hover, td a:focus{
 #title {
     padding: 2rem calc(var(--bs-gutter-x) * .5);
     display: none;
+
     p {
         margin-bottom: 0;
     }
@@ -59,6 +66,7 @@ td a:hover, td a:focus{
 
 #maincontent {
     background: black;
+
     p {
         font-size: 0.97rem;
         margin-bottom: 2rem;
@@ -86,17 +94,19 @@ dt,
 
 #browse-buttons {
     margin: 3rem 0 6rem;
-    .btn{
+
+    .btn {
         border-color: white;
         color: white;
         background: none;
     }
+
     .btn:hover {
         color: #fff;
         background-color: white;
         border-color: white;
         color: black !important;
-      }
+    }
 }
 
 h1.display-4 {
@@ -126,10 +136,11 @@ a:focus {
     text-decoration: underline;
 }
 
-.navbar{
+.navbar {
     border-top: 1px solid #464646;
 }
-.navbar-expand-lg{
+
+.navbar-expand-lg {
     position: fixed !important;
     bottom: 0 !important;
     width: 100% !important;
@@ -141,127 +152,165 @@ a:focus {
 #home-title-box {
     min-height: 100vh;
     padding-top: 0 !important;
-    p{
+
+    p {
         display: none;
     }
 }
-.bi.icon-sprite, h1{
+
+.bi.icon-sprite,
+h1 {
     color: black;
 }
-#scroll-to-top{
+
+#scroll-to-top {
     top: 0 !important;
     bottom: auto;
 }
-.banner-credits{
+
+.banner-credits {
     padding: 0.3rem 1rem 0.4rem !important;
-    a{
+
+    a {
         font-size: 0.8rem !important;
     }
 }
-.table-responsive-md{
+
+.table-responsive-md {
     margin-top: 3rem;
 }
-#item-table_wrapper{
-    .dt-buttons{
+
+#item-table_wrapper {
+    .dt-buttons {
         display: none;
     }
 }
-#item-table_info{
+
+#item-table_info {
     margin: 0 0 8rem;
 }
-#home-title-box,#item-table_info, #item-table_paginate{
+
+#home-title-box,
+#item-table_info,
+#item-table_paginate {
     font-size: 0.9rem;
 }
-.barrabusqueda{
+
+.barrabusqueda {
     padding: 3rem 0;
 }
-#browseSortButton{
+
+#browseSortButton {
     display: none;
 }
-#oi-tag{
+
+#oi-tag {
     padding: 3rem 0 5rem;
-  color: white;
+    color: white;
 }
-.breadcrumb{
+
+.breadcrumb {
     background: none;
 }
-.card{
+
+.card {
     background-color: none;
 }
-a:hover{
+
+a:hover {
     color: white;
     text-decoration: underline;
 }
-table, .table-striped > tbody > tr:nth-of-type(2n+1) > *{
+
+table,
+.table-striped>tbody>tr:nth-of-type(2n+1)>* {
     color: white;
 }
-tr.odd, tr.even{
-    border: 1px solid rgba(255,255,255,0.24);
+
+tr.odd,
+tr.even {
+    border: 1px solid rgba(255, 255, 255, 0.24);
     color: white;
 }
-h2{
+
+h2 {
     text-transform: lowercase;
-  margin: 4rem 0 2rem 0;
+    margin: 4rem 0 2rem 0;
 }
-.form-control{
-    background: rgba(255,255,255,0.1);
-  border: 1px solid black;
-  color: white;
+
+.form-control {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid black;
+    color: white;
 
 }
-#numberOf{
+
+#numberOf {
     display: none;
 }
-.nav-link,{
-    color: white;
-    text-decoration: underline;
+
+.nav-link,
+{
+color: white;
+text-decoration: underline;
 }
-.nav-link:focus,  .nav-link:hover{
+
+.nav-link:focus,
+.nav-link:hover {
     color: white;
     text-decoration: none;
 }
-footer{
+
+footer {
     display: none;
 }
-#home-banner{
+
+#home-banner {
     background-image: url('/archivo/objects/demo_001.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  max-height: 100vh;
-  overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-height: 100vh;
+    overflow: hidden;
 }
-.about-nav{
+
+.about-nav {
     background: none !important;
 }
-.about-contents > h2{
+
+.about-contents>h2 {
     border-top: 1px dotted #a2a2a2;
 }
 
 @media only screen and (max-width: 600px) {
     h1.display-4 {
         font-size: 13rem;
-      }
-  }
-
-h1, h1 a{
-    mix-blend-mode: difference;
-  color: #0087ff;
+    }
 }
-    h1 a:hover {
+
+h1,
+h1 a {
+    mix-blend-mode: difference;
+    color: #0087ff;
+}
+
+h1 a:hover {
     color: black;
     mix-blend-mode: normal !important;
     text-decoration: none;
-  }
-  p{
+}
+
+p {
     color: white;
-  }
-.modal-body{
-    p{
+}
+
+.modal-body {
+    p {
         color: black;
     }
 }
-#map{
+
+#map {
     position: absolute;
     outline: none;
     min-width: 100%;
@@ -269,114 +318,151 @@ h1, h1 a{
     min-height: 100vh;
     z-index: 2;
 }
-#technical{
+
+#technical {
     margin-bottom: 6rem;
-    a{
+
+    a {
         color: white;
         text-decoration: underline;
     }
-    a:hover{
+
+    a:hover {
         text-decoration: none;
     }
 }
+
 .border {
-    border: 1px solid rgba(255,255,255,0.24) !important;
-  }
-  #item-table,#item-metadata{
-    color: rgba(255,255,255,0.7);
+    border: 1px solid rgba(255, 255, 255, 0.24) !important;
+}
+
+#item-table,
+#item-metadata {
+    color: rgba(255, 255, 255, 0.7);
     font-family: 'Inter', sans-serif;
-  }
-  .btn-primary:hover{
+}
+
+.btn-primary:hover {
     color: #fff;
-  background-color: blue;
-  border-color: blue;
-  }
-  .btn-outline-primary {
+    background-color: blue;
+    border-color: blue;
+}
+
+.btn-outline-primary {
     border-color: white;
     color: white;
-  }
-  .btn-outline-primary:hover {
+}
+
+.btn-outline-primary:hover {
     color: #fff;
     background-color: white;
     border-color: white;
     color: black !important;
-  }
-  .card{
+}
+
+.card {
     background: none;
-  }
-  .breadcrumb-item a{
+}
+
+.breadcrumb-item a {
     color: white;
-  }
- 
-  .field-value{
+}
+
+.field-value {
     .btn-link {
         border: 1px solid white;
         font-size: 0.8rem;
         margin: 1rem 0;
     }
-    a{
+
+    a {
         color: white;
         text-decoration: underline;
     }
-    a:hover, a:focus{
+
+    a:hover,
+    a:focus {
         color: white;
         text-decoration: none;
     }
-  }
-  #dataModalLabel{
+}
+
+#dataModalLabel {
     color: black;
-  mix-blend-mode: normal;
-  }
-  .marker-cluster {
+    mix-blend-mode: normal;
+}
+
+.marker-cluster {
     background-color: rgba(193, 193, 193, 0.6);
-  }
-  .marker-cluster-small div {
+}
+
+.marker-cluster-small div {
     background-color: rgba(0, 0, 0, 0.6);
     font-weight: bolder;
-  }
-  .leaflet-popup-content{
+}
+
+.leaflet-popup-content {
     text-align: center;
-    p{
+
+    p {
         color: black;
         margin-bottom: 1rem !important;
         font-size: 0.8rem !important;
     }
-    .btn{
+
+    .btn {
         margin: 1rem 0 2rem 0;
-  border: 1px solid black;
-  color: black;
+        border: 1px solid black;
+        color: black;
     }
-    .h4, h4 {
+
+    .h4,
+    h4 {
         font-size: 1.2rem;
         margin: 2rem 0;
         font-family: 'Fraunces', serif;
-      }
-  }
-  .btn-group{
+    }
+}
+
+.btn-group {
     margin-top: 2rem;
-  }
-  #item-nav a{
+}
+
+#item-nav a {
     position: fixed;
-  }
-  #item-nav a:hover,  #item-nav a:focus{
+}
+
+#item-nav a:hover,
+#item-nav a:focus {
     color: black;
     background: white;
     text-decoration: none !important;
-  }
-  #item-nav .previous, #item-nav .next {
+}
+
+#item-nav .previous,
+#item-nav .next {
     background: none;
-  border: 1px solid white;
-  height: 50px;
-  line-height: 25px;
-  font-size: 1.7rem;
-  }
-  p{
+    border: 1px solid white;
+    height: 50px;
+    line-height: 25px;
+    font-size: 1.7rem;
+}
+
+p {
     color: #ffffff8c;
     font-family: 'inter', sans-serif;
-  }
-  a:hover img, a:focus img{
+}
+
+a:hover img,
+a:focus img {
     text-decoration: none;
-  }
-  audio{
+}
+
+audio {
     border: 1px solid #4a4a4a;
-  }
+}
+
+.spotlight:hover,
+.spotlight:focus {
+    text-decoration: none;
+}
