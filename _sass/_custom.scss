@@ -5,6 +5,12 @@
 
 body{
     color: #919191;
+    background: url('/archivo/objects/demo_001.jpg');
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto;
+  background-position: center -190%;
+  background-size: cover;
 }
 p {
     margin-top: 0;
