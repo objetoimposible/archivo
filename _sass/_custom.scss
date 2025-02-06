@@ -84,16 +84,16 @@ h1.display-4 {
 }
 
 a {
-    color: blue;
+    color: black;
 }
 
 .btn-primary {
-    background: blue;
+    background: black;
 }
 
 .btn-outline-primary {
-    border-color: blue;
-    color: blue;
+    border-color: black;
+    color: black;
 }
 
 a:hover,
@@ -106,7 +106,7 @@ a:focus {
     bottom: 0 !important;
     width: 100% !important;
     display: block !important;
-    background: blue !important;
+    background: black !important;
     z-index: 100 !important;
 }
 
@@ -118,7 +118,7 @@ a:focus {
     }
 }
 .bi.icon-sprite, h1{
-    color: blue;
+    color: black;
 }
 #scroll-to-top{
     top: 0 !important;
@@ -211,7 +211,9 @@ footer{
       }
   }
 
-
+h1{
+    mix-blend-mode: difference;
+}
     h1 a {
     color: white;
   }
