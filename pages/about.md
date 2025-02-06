@@ -9,9 +9,6 @@ credits: true
 ---
 
 
-# {% include feature/nav-menu.html sections="About the Collection;About the About Page" %}
-
-
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tempor arcu nec blandit facilisis. Donec at lorem ac ante posuere blandit in vitae ipsum. Nam interdum purus massa, a vulputate ligula elementum cursus. Aenean at dui a turpis facilisis mollis. Nullam scelerisque urna vel maximus auctor. Duis ut nisl auctor, imperdiet tellus nec, ultrices nunc. Phasellus condimentum, dolor vel euismod pellentesque, quam eros vulputate elit, eu euismod odio arcu ut ex. Mauris convallis nec ipsum in interdum. Fusce ut efficitur risus, posuere lacinia nisl. Sed tellus ipsum, ultricies a ultrices ac, tempor sit amet risus. Phasellus non nunc hendrerit, semper dolor sed, interdum massa. Suspendisse id consectetur quam, id finibus mauris. Vestibulum bibendum ligula vel mattis tincidunt.
 
