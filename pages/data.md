@@ -6,6 +6,6 @@ permalink: /data.html
 # a table visualization will be added below the content in this file
 ---
 
-## colección
+## Repositorio
 
 El siguiente es un listado de objetos catalogados en el curso de cada proceso de investigación. 
