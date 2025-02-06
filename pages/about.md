@@ -9,7 +9,7 @@ credits: true
 ---
 
 
-{% include feature/nav-menu.html sections="About the Collection;About the About Page" %}
+# {% include feature/nav-menu.html sections="About the Collection;About the About Page" %}
 
 
 
