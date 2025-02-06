@@ -8,4 +8,4 @@ permalink: /data.html
 
 ## colección
 
-El siguiente es un listado de objetos catalogados en el curso de cada proceso de invesgación. 
+El siguiente es un listado de objetos catalogados en el curso de cada proceso de investigación. 
