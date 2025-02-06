@@ -2,7 +2,7 @@
     Put your custom SCSS here! 
     This allows you to override any CollectionBuilder or Bootstrap CSS without modifying the base theme files directly.
 */
-@import url('https://fonts.googleapis.com/css2?family=Radley:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 body{
     color: #919191;
@@ -371,7 +371,7 @@ h1, h1 a{
   }
   p{
     color: #ffffff8c;
-    font-family:"Radley"; // 'inter', sans-serif;
+    font-family: 'inter', sans-serif;
   }
   a:hover img, a:focus img{
     text-decoration: none;
