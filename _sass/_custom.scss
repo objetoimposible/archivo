@@ -85,6 +85,16 @@ dt,
 
 #browse-buttons {
     margin: 3rem 0 6rem;
+    .btn{
+        border-color: white;
+        color: white;
+    }
+    .btn:hover {
+        color: #fff;
+        background-color: white;
+        border-color: white;
+        color: black !important;
+      }
 }
 
 h1.display-4 {
