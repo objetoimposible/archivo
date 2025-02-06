@@ -467,3 +467,15 @@ audio {
 .spotlight:focus {
     text-decoration: none;
 }
+.modal-body{
+    .modal-body{
+        a{
+            color: black;
+            text-decoration: underline;
+        }
+        a:hover, a:focus{
+            color: black;
+            text-decoration: none;
+        }
+    }
+}
