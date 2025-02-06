@@ -269,16 +269,23 @@ h1, h1 a{
   background-color: blue;
   border-color: blue;
   }
+  .btn-outline-primary {
+    border-color: white;
+    color: white;
+  }
+  .btn-outline-primary:hover {
+    color: #fff;
+    background-color: white;
+    border-color: white;
+    color: black !important;
+  }
   .card{
     background: none;
   }
   .breadcrumb-item a{
     color: white;
   }
-  .btn-outline-primary {
-    border-color: white;
-    color: white;
-  }
+ 
   .field-value{
     a{
         color: white;
