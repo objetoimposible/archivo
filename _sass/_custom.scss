@@ -92,11 +92,11 @@ a:focus {
 }
 
 .nav-bar {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    display: block;
-    background-color: blue !important;
+    position: fixed !important;
+    bottom: 0 !important;
+    width: 100% !important;
+    display: block !important;
+    background: blue !important;
 }
 
 #home-title-box {
