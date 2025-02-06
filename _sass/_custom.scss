@@ -11,3 +11,24 @@ p {
     font-size: 1rem;
     margin-bottom: 2rem;
   }
+  table.dataTable > thead > tr > th:not(.sorting_disabled), table.dataTable > thead > tr > td:not(.sorting_disabled) {
+    padding-right: 30px;
+    font-size: 1rem;
+    line-height: 1.1;
+    padding-bottom: 1rem;
+  }
+  table.dataTable td, table.dataTable th {
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    font-size: 0.9rem;
+    padding: 1rem;
+  }
+  #title{
+    padding: 2rem calc(var(--bs-gutter-x) * .5);
+  }
+  #maincontent{
+    p{
+        font-size: 0.97rem;
+        margin-bottom: 2rem;
+    }
+  }
