@@ -25,6 +25,9 @@ p {
   }
   #title{
     padding: 2rem calc(var(--bs-gutter-x) * .5);
+    p{
+        margin-bottom: 0;
+    }
   }
   #maincontent{
     p{
