@@ -2,8 +2,8 @@ display_name,stub,dropdown_parent
 Portada,/
 Navegar,/browse.html
 Etiquetas,/subjects.html
-Ubicaciones,/locations.html
-Mapa,/map.html
+Repositorio,/locations.html
+,/map.html
 Línea de tiempo,/timeline.html
 Colección,/data.html
 Presentación,/about.html
