@@ -325,11 +325,11 @@ p {
 
     a {
         color: white;
-        text-decoration: underline;
+        text-decoration: none;
     }
 
     a:hover {
-        text-decoration: none;
+        text-decoration: underline;
     }
 }
 
