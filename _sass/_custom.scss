@@ -331,3 +331,9 @@ h1, h1 a{
   .btn-group{
     margin-top: 2rem;
   }
+  #item-nav .previous, #item-nav .next {
+    background: none;
+  border: 1px solid white;
+  height: 50px;
+  line-height: 25px;
+  }
