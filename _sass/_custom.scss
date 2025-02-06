@@ -318,8 +318,7 @@ h1, h1 a{
   mix-blend-mode: normal;
   }
   .marker-cluster {
-    background-clip: padding-box;
-    border-radius: 20px;
+    background-color: rgba(193, 193, 193, 0.6);
   }
   .marker-cluster-small div {
     background-color: rgba(0, 0, 0, 0.6);
