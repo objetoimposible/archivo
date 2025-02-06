@@ -1,5 +1,5 @@
 field,display_name,search
-date,Date,true
-creator,Creator,true
-subject,Subjects,true
-location,Location,true
+date,Fecha de levantamiento,true
+creator,Respnsable,true
+subject,Etiquetas,true
+location,Ubicaciòn,true
