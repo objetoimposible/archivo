@@ -19,7 +19,10 @@ p {
     font-size: 1rem;
     margin-bottom: 2rem;
 }
-
+a{
+    color: white;
+    text-decoration: underline;
+}
 table.dataTable>thead>tr>th:not(.sorting_disabled),
 table.dataTable>thead>tr>td:not(.sorting_disabled) {
     padding-right: 30px;
