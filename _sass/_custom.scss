@@ -103,6 +103,9 @@ a:focus {
 #home-title-box {
     min-height: 100vh;
     padding-top: 0 !important;
+    p{
+        display: none;
+    }
 }
 .bi.icon-sprite{
     color: blue;
