@@ -155,7 +155,7 @@ a:focus {
     bottom: 0 !important;
     width: 100% !important;
     display: block !important;
-    background: black !important;
+    background: white !important;
     z-index: 100 !important;
 }
 
@@ -261,13 +261,13 @@ h2 {
 
 .nav-link,
 {
-color: white;
+color: black;
 text-decoration: underline;
 }
 
-.nav-link:focus,
+.nav-link:focus,.navbar-expand-lg
 .nav-link:hover {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
