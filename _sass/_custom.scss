@@ -97,8 +97,12 @@ a:focus {
     width: 100% !important;
     display: block !important;
     background: blue !important;
+    z-index: 10 !important;
 }
 
 #home-title-box {
     min-height: 100vh;
+}
+.bi.icon-sprite{
+    color: blue;
 }
