@@ -6,6 +6,6 @@ permalink: /data.html
 # a table visualization will be added below the content in this file
 ---
 
-## Colección
+## colección
 
 El siguiente es un listado de objetos catalogados en el curso de cada proceso de invesgación. 
