@@ -69,3 +69,10 @@ p {
   a:hover, a:focus{
     text-decoration: underline;
   }
+  .nav-bar{
+    position: fixed;
+  bottom:0;
+  width: 100%;
+  display: block;
+  background-color: red !important;
+  }
