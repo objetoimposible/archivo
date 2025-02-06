@@ -96,7 +96,7 @@ bootswatch: # leave blank or comment out for plain bootstrap
 base-font-size: 1.2em
 text-color: "#191919"
 link-color: "#0d6efd"
-base-font-family: 'Fraunces', serif;
+base-font-family: "Fraunces"
 font-cdn: <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet">
 
 # THEME ICONS [optional!]
