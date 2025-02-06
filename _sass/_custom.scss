@@ -57,7 +57,7 @@ td a:hover, td a:focus{
 }
 
 #maincontent {
-    background: #212529;
+    background: black;
     p {
         font-size: 0.97rem;
         margin-bottom: 2rem;
@@ -125,6 +125,9 @@ a:focus {
     text-decoration: underline;
 }
 
+.navbar{
+    border-top: 1px solid #464646;
+}
 .navbar-expand-lg{
     position: fixed !important;
     bottom: 0 !important;
