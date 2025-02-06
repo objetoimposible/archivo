@@ -38,6 +38,15 @@ table.dataTable th {
     font-size: 0.9rem;
     padding: 1rem;
 }
+td a{
+    color: white;
+    text-decoration: underline;
+}
+td a:hover, td a:focus{
+    color: white;
+    text-decoration: none;
+}
+
 
 #title {
     padding: 2rem calc(var(--bs-gutter-x) * .5);
