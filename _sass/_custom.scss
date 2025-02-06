@@ -3,7 +3,9 @@
     This allows you to override any CollectionBuilder or Bootstrap CSS without modifying the base theme files directly.
 */
 
-
+body{
+    color: #919191;
+}
 p {
     margin-top: 0;
     margin-bottom: 1rem;
@@ -141,4 +143,7 @@ a:focus {
 #oi-tag{
     padding: 3rem 0 5rem;
   color: white;
+}
+.breadcrumb{
+    background: none;
 }
