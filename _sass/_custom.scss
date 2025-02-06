@@ -513,3 +513,7 @@ label, #item-table_info{
 .btn-check:focus + .btn-outline-primary, .btn-outline-primary:focus{
     box-shadow: none;
 }
+.nav-link.active{
+    font-weight: bolder;
+  text-decoration: none;
+}
