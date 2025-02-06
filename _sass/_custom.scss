@@ -227,8 +227,10 @@ h1, h1 a{
     mix-blend-mode: difference;
   color: #0087ff;
 }
-    h1 a {
-    color: white;
+    h1 a:hover {
+    color: black;
+    mix-blend-mode: normal;
+    text-decoration: none;
   }
   p{
     color: white;
