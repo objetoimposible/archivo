@@ -50,7 +50,7 @@ td a:hover, td a:focus{
 
 #title {
     padding: 2rem calc(var(--bs-gutter-x) * .5);
-
+    display: none;
     p {
         margin-bottom: 0;
     }
