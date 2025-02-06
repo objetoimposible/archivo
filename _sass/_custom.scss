@@ -348,6 +348,9 @@ h1, h1 a{
   .btn-group{
     margin-top: 2rem;
   }
+  #item-nav a{
+    position: fixed;
+  }
   #item-nav .previous, #item-nav .next {
     background: none;
   border: 1px solid white;
