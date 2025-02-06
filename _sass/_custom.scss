@@ -510,3 +510,6 @@ label, #item-table_info{
     font-size: 0.8rem !important;
   margin-top: 0.25rem;
 }
+.btn-check:focus + .btn-outline-primary, .btn-outline-primary:focus{
+    box-shadow: none;
+}
