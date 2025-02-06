@@ -106,12 +106,12 @@ a:focus {
 .bi.icon-sprite{
     color: blue;
 }
-.#scroll-to-top{
+#scroll-to-top{
     top: 0 !important;
     bottom: auto;
 }
 .banner-credits{
-    padding: 0.3rem 1rem 0.4rem;
+    padding: 0.3rem 1rem 0.4rem !important;
     a{
         font-size: 0.8rem !important;
     }
