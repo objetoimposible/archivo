@@ -10,8 +10,9 @@ body {
     background-position-x: 0%;
     background-position-y: 0%;
     background-size: auto;
-    background-position: center -630%;
-    background-size: cover;
+    background-position: center center;
+  background-size: cover;
+  position: absolute;
 }
 
 p {
