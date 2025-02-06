@@ -116,3 +116,11 @@ a:focus {
         font-size: 0.8rem !important;
     }
 }
+.table-responsive-md{
+    margin-top: 3rem;
+}
+.item-table_wrapper{
+    .dt-buttons{
+        display: none;
+    }
+}
