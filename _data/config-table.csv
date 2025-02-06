@@ -2,4 +2,4 @@ field,display_name
 title,Título
 date,Fecha de levantamiento
 description,Descripción
-subject,Etiquetas
+type,Formato
