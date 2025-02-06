@@ -10,72 +10,95 @@ p {
     font-family: arial;
     font-size: 1rem;
     margin-bottom: 2rem;
-  }
-  table.dataTable > thead > tr > th:not(.sorting_disabled), table.dataTable > thead > tr > td:not(.sorting_disabled) {
+}
+
+table.dataTable>thead>tr>th:not(.sorting_disabled),
+table.dataTable>thead>tr>td:not(.sorting_disabled) {
     padding-right: 30px;
     font-size: 1rem;
     line-height: 1.1;
     padding-bottom: 1rem;
-  }
-  table.dataTable td, table.dataTable th {
+}
+
+table.dataTable td,
+table.dataTable th {
     -webkit-box-sizing: content-box;
     box-sizing: content-box;
     font-size: 0.9rem;
     padding: 1rem;
-  }
-  #title{
+}
+
+#title {
     padding: 2rem calc(var(--bs-gutter-x) * .5);
-    p{
+
+    p {
         margin-bottom: 0;
     }
-  }
-  #maincontent{
-    p{
+}
+
+#maincontent {
+    p {
         font-size: 0.97rem;
         margin-bottom: 2rem;
     }
-  }
-  #item-format{
+}
+
+#item-format {
     padding: 2rem 0 0.5rem;
-  }
-  #item-title{
+}
+
+#item-title {
     margin-bottom: 3rem !important;
-  }
-  .breadcrumb{
+}
+
+.breadcrumb {
     padding: 2rem 0 0;
-  }
-  dd, dt, .navbar-expand-lg .navbar-nav{
+}
+
+dd,
+dt,
+.navbar-expand-lg .navbar-nav {
     font-size: 1rem;
-  }
-  #browse-buttons{
+}
+
+#browse-buttons {
     margin: 3rem 0;
-  }
-  h1.display-4{
+}
+
+h1.display-4 {
     font-size: 20rem;
-  }
-  .card-title {
+}
+
+.card-title {
     margin: 1rem 0;
-  }
-  a{
+}
+
+a {
     color: blue;
-  }
-  .btn-primary{
+}
+
+.btn-primary {
     background: blue;
-  }
-  .btn-outline-primary{
+}
+
+.btn-outline-primary {
     border-color: blue;
     color: blue;
-  }
-  a:hover, a:focus{
+}
+
+a:hover,
+a:focus {
     text-decoration: underline;
-  }
-  .nav-bar{
+}
+
+.nav-bar {
     position: fixed;
-  bottom:0;
-  width: 100%;
-  display: block;
-  background-color: blue !important;
-  }
-  #home-title-box{
+    bottom: 0;
+    width: 100%;
+    display: block;
+    background-color: blue !important;
+}
+
+#home-title-box {
     min-height: 100vh;
-  }
+}
