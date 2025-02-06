@@ -37,6 +37,7 @@ table.dataTable th {
 }
 
 #maincontent {
+    background: #212529;
     p {
         font-size: 0.97rem;
         margin-bottom: 2rem;
@@ -136,4 +137,8 @@ a:focus {
 }
 #browseSortButton{
     display: none;
+}
+#oi-tag{
+    padding: 3rem 0 5rem;
+  color: white;
 }
