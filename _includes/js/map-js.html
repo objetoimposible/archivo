@@ -53,13 +53,14 @@
     });
     /* add base map switcher */
     var baseMaps = {
-
-        "Esri Imagery": Esri_WorldImagery
-
+        "Esri World StreetMap": Esri_WorldStreetMap,
+        "Esri National Geo": Esri_NatGeoWorldMap,
+        "Esri Imagery": Esri_WorldImagery,
+        "Open Street Map": OpenStreetMap_Mapnik
     };
     L.control.layers(baseMaps).addTo(map);
     /* load base map */
-    {{ site.data.theme.map-base | default: 'Esri_WorldImagery' }}.addTo(map);
+    {{ site.data.theme.map-base | default: Esri_WorldImagery }}.addTo(map);
 
     {% if site.data.theme.map-search == true %}
     /* add leaflet-fusesearch */
