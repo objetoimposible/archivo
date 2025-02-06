@@ -137,6 +137,9 @@ a:focus {
         display: none;
     }
 }
+#item-table_info{
+    margin: 0 0 8rem;
+}
 #home-title-box,#item-table_info, #item-table_paginate{
     font-size: 0.9rem;
 }
@@ -185,4 +188,12 @@ h2{
 }
 footer{
     display: none;
+}
+#home-banner{
+    background-image: url('/archivo/objects/demo_001.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-height: 100vh;
+  overflow: hidden;
 }
