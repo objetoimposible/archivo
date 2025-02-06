@@ -117,7 +117,15 @@ h1.display-4 {
 .card-title {
     margin: 1rem 0;
 }
-
+.card-text{
+    a{
+        color: black;
+        text-decoration: underline;
+    }
+    a:hover, a:focus{
+        text-decoration: none;
+    }
+}
 a {
     color: black;
 }
