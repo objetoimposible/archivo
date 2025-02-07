@@ -280,7 +280,7 @@ footer {
 }
 
 #home-banner {
-    background-image: url('/archivo/objects/demo_001.jpg');
+    background-image: url('/archivo/objects/demo_001.jpg') !important;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center bottom;
